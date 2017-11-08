@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6897,        201]
-NotebookOptionsPosition[      6493,        185]
-NotebookOutlinePosition[      6835,        200]
-CellTagsIndexPosition[      6792,        197]
+NotebookDataLength[      7433,        213]
+NotebookOptionsPosition[      7029,        197]
+NotebookOutlinePosition[      7371,        212]
+CellTagsIndexPosition[      7328,        209]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -173,14 +173,26 @@ Cell[BoxData[
         RowBox[{"rotateByQ", "[", 
          RowBox[{"lastChainVector", ",", 
           RowBox[{"prevQuatFn", "[", "basequat", "]"}]}], "]"}]}]}], "//", 
-      "Simplify"}]}], ";"}]}]}]], "Input",
+      "Simplify"}]}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "\:041f\:043e\:043b\:0435\:0437\:043d\:0430\:044f", " ", 
+     "\:0432\:0441\:043f\:043e\:043c\:043e\:0433\:0430\:0442\:0435\:043b\:044c\
+\:043d\:0430\:044f", " ", "\:0444\:0443\:043d\:043a\:0446\:0438\:044f"}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"valueToFunc", "=", 
+     RowBox[{"Function", "[", 
+      RowBox[{"value", ",", 
+       RowBox[{"value", "&"}]}], "]"}]}], ";"}]}]}]], "Input",
  CellChangeTimes->{{3.713169498290124*^9, 3.7131695935598793`*^9}, {
   3.7131700329322977`*^9, 3.713170045300627*^9}, {3.713248399784254*^9, 
   3.7132484003880787`*^9}, {3.713249376423192*^9, 3.7132493990802555`*^9}, {
   3.713249439414153*^9, 3.713249583707095*^9}, {3.713250143561164*^9, 
   3.7132501465683675`*^9}, {3.7132503047086954`*^9, 3.7132503480113864`*^9}, {
   3.713258000255291*^9, 3.7132580014213734`*^9}, {3.718705600194661*^9, 
-  3.718705610644181*^9}},ExpressionUUID->"de3748c1-27dd-4a47-920c-\
+  3.718705610644181*^9}, {3.719155108031888*^9, 
+  3.7191551545989585`*^9}},ExpressionUUID->"de3748c1-27dd-4a47-920c-\
 b92f19c1fbe2"]
 },
 WindowSize->{879, 977},
@@ -201,7 +213,7 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 1805, 55, 69, "Input", "ExpressionUUID" -> \
 "46315571-acec-4123-bcb6-2624cb3fbe11"],
-Cell[2366, 77, 4123, 106, 335, "Input", "ExpressionUUID" -> \
+Cell[2366, 77, 4659, 118, 392, "Input", "ExpressionUUID" -> \
 "de3748c1-27dd-4a47-920c-b92f19c1fbe2"]
 }
 ]
